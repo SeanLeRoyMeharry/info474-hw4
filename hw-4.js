@@ -85,18 +85,18 @@
       .attr('x', 100)
       .attr('y', 40)
       .style('font-size', '14pt')
-      .text("Countries by Life Expectancy and Fertility Rate");
+      .text("World Life Expectancy and Fertility Through Time By Guest");
 
     svgContainer.append('text')
       .attr('x', 130)
       .attr('y', 490)
       .style('font-size', '10pt')
-      .text('Fertility Rates (Avg Children per Woman)');
+      .text('Fertility Rate');
 
     svgContainer.append('text')
       .attr('transform', 'translate(15, 300)rotate(-90)')
       .style('font-size', '10pt')
-      .text('Life Expectancy (years)');
+      .text('Life Expectancy');
   }
 
   // plot all the data points on the SVG
